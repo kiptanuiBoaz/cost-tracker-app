@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import Input from './Input';
 import Button from '../UI/Button';
-import { getFormattedDate } from '../../util/date';
+import { getFormattedDate } from '../../utils/date';
 import { GlobalStyles } from '../../constants/styles';
 
 function ExpenseForm({ submitButtonLabel, onCancel, onSubmit, defaultValues }) {
